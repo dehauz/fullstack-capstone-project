@@ -8,13 +8,13 @@ export default function Navbar() {
                 <ul className="navbar-nav">
 
                     <li className="nav-item">
-                    <Link className="nav-link" to="/home.html">Home</Link> {/* Link to home.html */}
+                    <a className="nav-link" href="/home.html">Home</a> {/* Link to home.html */}
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/app">Gifts</Link> {/* Updated Link */}
+                        <a className="nav-link" href="/app">Gifts</a> {/* Updated Link */}
                     </li>
                     <li className="nav-item">
-	                    <Link className="nav-link" to="/app/search">Search</Link>
+	                    <a className="nav-link" href="/app/search">Search</a>
                     </li>
 
                 </ul>
